@@ -26,15 +26,15 @@ body{
 }
 
 #fullScreenButton{
-	height:30px;
-	width:30px;
+	height:60px;
+	width:60px;
 	position:absolute;
 	z-index:1;
 	bottom:5px;
 	right:5px;
 	background-color:transparent;
-	background-image:url("../img/fullScreen_on.png");
-	background-size:30px 30px;
+	background-image:url("../img/fullScreen_on_dark.png");
+	background-size:60px 60px;
 	border:none;
 	cursor: pointer;
 }
@@ -52,8 +52,8 @@ body{
 }
 
 .logo{
-	height:25vh;
-	width:auto;
+	height:10%;
+	width:10%;
 	display: block;
 	margin:auto;
 	margin-top:2vh;
@@ -90,6 +90,7 @@ body{
 #progressBar{
 	height:8vh;
 	color:#666666;
+	margin-top:5%;
 	font-size:4vh;
 }
 
